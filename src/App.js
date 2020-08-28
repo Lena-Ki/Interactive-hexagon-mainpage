@@ -1,12 +1,12 @@
 import React from 'react';
-import { HexContent } from './components/HexContent';
-import { HexForm } from './components/HexForm';
+import { HeaderNav } from './components/HeaderNav';
+import { MainContent } from './components/MainContent';
 
 function App() {
   return (
-    <div style={{width: '282px', height: '264px', position: 'relative'}}>
-      <HexForm />
-      <HexContent />
+    <div>
+      <HeaderNav />
+      <MainContent />
     </div>
   )
 }

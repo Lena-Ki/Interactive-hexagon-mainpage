@@ -1,7 +1,5 @@
 .mainhex__content {
   position: absolute;
-  width: 97%;
-  top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +8,7 @@
 
 .mainhex__date {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .mainhex__time {
@@ -21,13 +19,13 @@
   display: inline-block;
   box-sizing: border-box;
   line-height: 1.5em;
-  padding: 0.46em 1.5em;
+  padding: 0.46em 0.8em;
   margin: 0 0.2em 0.2em 0;
   border: 0.05em solid #000000;
   border-radius: 0.4em;
   text-decoration: none;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: initial;
   font-weight: 400;
   color:#000000;
