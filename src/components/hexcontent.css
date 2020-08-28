@@ -1,0 +1,41 @@
+.mainhex__content {
+  position: absolute;
+  width: 97%;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mainhex__date {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.mainhex__time {
+  margin-bottom: 15px;
+}
+
+.mainhex__button {
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  padding: 0.46em 1.5em;
+  margin: 0 0.2em 0.2em 0;
+  border: 0.05em solid #000000;
+  border-radius: 0.4em;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: initial;
+  font-weight: 400;
+  color:#000000;
+  background-color:#FFFFFF;
+  transition: all 0.15s;
+}
+
+.mainhex__button:hover{
+  text-shadow: 0 0.1em 0.1em rgba(0,0,0,0.35);
+  border-color:#FFFFFF;
+}
