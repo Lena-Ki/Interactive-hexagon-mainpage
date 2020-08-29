@@ -1,10 +1,10 @@
 export const AppStore = {
   items: [
-    {id: 1, content: 1},
-    {id: 2, content: 2},
-    {id: 3, content: 3},
-    {id: 4, content: 4},
-    {id: 5, content: 5},
+    {date: '30 мая', time: '16:30', team1: 'Рубин', team2: 'Ак Барс'},
+    {date: '17 июня', time: '20:00', team1: 'Динамо', team2: 'Ак Барс'},
+    {date: '26 июня', time: '19:00', team1: 'Соперник №1', team2: 'Соперник №2'},
+    {date: '16 июля', time: '18:30', team1: 'Динамо', team2: 'Рубин'},
+    {date: '30 сентября', time: '19:30', team1: 'Ак Барс', team2: 'Рубин'},
   ],
   states: {
     device: {
