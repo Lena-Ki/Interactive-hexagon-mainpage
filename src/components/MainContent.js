@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-
-import { Hex2 } from './HexItems/Hex2';
-import { Hex3 } from './HexItems/Hex3';
-import { Hex4 } from './HexItems/Hex4';
+import { AppStore } from '../stores/AppStore'
+import { ReusableHex } from './HexItems/ReusableHex'
 import './maincontent.css'
 
 export const MainContent = () => {
@@ -15,26 +13,28 @@ export const MainContent = () => {
     {id: 5, content: 5},
   ]
 
-  const sizes = [
-    {width: '160px', height: '160px'},
-    {width: '282px', height: '264px'},
-  ]
-
-  const positions = [
-    {top: '51%', left: '30%', right: '', transform: ''},
-    {top: '50%', left: '50%', right: '', transform: 'translate(-50%,-50%)'},
-    {top: '17%', left: '', right: '30%', transform: ''},
-  ]
-
   const [active, setActive] = useState(3)
+
+  const renderHex = (active, device) => {
+    console.log(active, device)
+    let Hexs = []
+    let classId = null
+    let item = null
+    let i = 0
+    for (i; i < 5; i++) {
+      classId = AppStore.states.classid[active][i]
+      item = <ReusableHex key={i} id={i} clName={device+classId} state={active} setActive={setActive}/>
+      Hexs.push(item)
+    }
+    console.log(Hexs)
+    return Hexs
+  }
 
   return (
     <div className="hex-container">
-    
-      <Hex2 state={active} sizes={sizes} positions={positions} setActive={setActive}/>
-      <Hex3 state={active} sizes={sizes} positions={positions} setActive={setActive}/>
-      <Hex4 state={active} sizes={sizes} positions={positions} setActive={setActive}/>
       
+      {renderHex(active, 'desktop')}
     </div>
+
   )
 }
