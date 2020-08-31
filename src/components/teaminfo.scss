@@ -1,5 +1,5 @@
 .cut-corner {
-  width: calc(54vw - 50px);
+  width: calc(53vw - 50px);
   height: 10vw;
   max-height: 110px;
   display: flex;
@@ -7,29 +7,27 @@
   align-items: center;
   position: absolute;
   background: url(../images/clipped-rect.svg) no-repeat center;
-  background-size: 87% 100%;
+  background-size: 86% 100%;
 }
 
 .cut-corner__left {
-  top: calc(55vh - 145px);
-  left: -55px;
+  top: calc(50vh - 4vw - 75px);
+  left: -36px;
 }
 
 .cut-corner__right {
   transform: scale(-1, -1);
   top: 51%;
-  right: -55px
+  right: -38px
 }
 
-.team1 {
-  right: 20%;
+.team {
   position: relative;
   transition: all 1s;
+  right: 20%;
+
+  &.team2 {
+    transform: scale(-1, -1);
+  }
 }
 
-.team2 {
-  right: 20%;
-  transform: scale(-1, -1);
-  position: relative;
-  transition: all 1s;
-}

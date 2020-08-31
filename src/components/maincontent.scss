@@ -1,3 +1,6 @@
+$mainhex_w: calc(12vw + 140px);
+$mainhex_h: calc(12vw + 140px - 28px);
+
 .d_flex {
   display: flex;
   justify-content: space-between;
@@ -50,9 +53,9 @@
 }
 
 .hex__desktop3 {
-  width: calc(12vw + 148px);
+  width: $mainhex_w;
+  height: $mainhex_h;
   max-width: 265px;
-  height: calc(12vw + 148px);
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);

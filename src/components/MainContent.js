@@ -30,7 +30,7 @@ export const MainContent = () => {
   const renderTeams = (active, id) => {
     let team = id === 1 ? 'team1' : 'team2'
     let name = AppStore.items[active - 1][team]
-    let clName = "strong team" + id
+    let clName = "strong team team" + id
     return (<span className={clName}>{name}</span>)
   }
 
@@ -55,9 +55,11 @@ export const MainContent = () => {
       <div className="cut-corner cut-corner__left">
         {renderTeams(active, 1)}
       </div>
+
       <div className="hex-container">
         {renderHex(active, 'desktop')}
       </div>
+      
       {/* right team info */}
       <div className="cut-corner cut-corner__right">
         {renderTeams(active, 2)}

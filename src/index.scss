@@ -10,3 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
 }
+
+.mobile_alert {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
