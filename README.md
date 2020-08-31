@@ -1,5 +1,21 @@
-# Hexagon webpage | In progress
+# Hexagon desktop webpage
 Interactive page using React with CSS animations.
+
+### Installing
+
+Clone repository to your machine, open the directory and install modules using
+
+```
+npm install
+```
+
+Start a server using terminal command
+
+```
+npm run start
+```
+
+You can now open http://localhost:3000/ to see the app.
 
 ## Built With
 
