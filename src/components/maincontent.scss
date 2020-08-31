@@ -21,7 +21,7 @@
   position: absolute;
   justify-content:center;
   align-items: center;
-  background: url(../hex.svg) no-repeat center;
+  background: url(../images/hex.svg) no-repeat center;
   background-size: contain;
   transition: all 1.5s
 }
@@ -36,39 +36,40 @@
 }
 
 .hex__desktop1 {
-  width: 115px;
+  width: calc(5vw + 50px);
   height: 115px;
-  top: 70%;
-  left: 19%
+  top: calc(49vh + 42px + 2vw + 70px);
+  left: calc(45vw - 180px - 5vw - 45px)
 }
 
 .hex__desktop2 {
-  width: 160px;
+  width: calc(5vw + 90px);
   height: 160px;
-  top: 53%;
-  left: 28%
+  top: calc(49vh + 40px);
+  left: calc(45vw - 180px);
 }
 
 .hex__desktop3 {
-  width: 260px;
-  height: 260px;
+  width: calc(12vw + 148px);
+  max-width: 265px;
+  height: calc(12vw + 148px);
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 
 .hex__desktop4 {
-  width: 160px;
+  width: calc(5vw + 90px);
   height: 160px;
-  top: 17%;
-  left: 58%;
+  top: calc(50vh - 125px - 70px);
+  left: calc(57vw + 30px);
 }
 
 .hex__desktop5 {
-  width: 115px;
+  width: calc(5vw + 50px);
   height: 115px;
-  top: 7%;
-  left: 70%;
+  top: calc(50vh - 125px - 70px - 45px);
+  left: calc(61vw + 120px);
 }
 
 .hex__desktop6 {

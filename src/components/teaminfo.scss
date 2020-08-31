@@ -1,17 +1,17 @@
 .cut-corner {
-  width: 50vw;
+  width: calc(54vw - 50px);
   height: 10vw;
   max-height: 110px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: absolute;
-  background: url(../clipped-rect.svg) no-repeat center;
+  background: url(../images/clipped-rect.svg) no-repeat center;
   background-size: 87% 100%;
 }
 
 .cut-corner__left {
-  top: 29%;
+  top: calc(55vh - 145px);
   left: -55px;
 }
 

@@ -9,14 +9,14 @@ export const HexContent = ({id, state}) => {
   let size = position === 1 | position === 5 ? 'small' : 'medium'
   
   return (
-    <div className="mainhex__content">
+    <div className="hex__content">
       {state === id 
-        ? <>
+        ? <div className="hex__content main">
           <p>Стадион</p>
           <span className="strong">{hexContent.date.toUpperCase()}</span>
           <span className="mainhex__time">{hexContent.time}</span>
           <button className="mainhex__button">Купить билет</button>
-        </>
+        </div>
         : position === 0 || position === 6 // check not faded
           ? null 
           : <span className={"secondary__content " + size}>{hexContent.date}</span>

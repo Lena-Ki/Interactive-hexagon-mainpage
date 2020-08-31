@@ -3,7 +3,7 @@ import { AppStore } from '../stores/AppStore'
 import { ReusableHex } from './ReusableHex'
 import './maincontent.scss'
 import './hexcontent.scss';
-import './clipped.css'
+import './teaminfo.scss'
 
 export const MainContent = () => {
 
@@ -51,12 +51,14 @@ export const MainContent = () => {
 
   return (
     <div onWheel={handleWheel}>
+      {/* left team info */}
       <div className="cut-corner cut-corner__left">
         {renderTeams(active, 1)}
       </div>
       <div className="hex-container">
         {renderHex(active, 'desktop')}
       </div>
+      {/* right team info */}
       <div className="cut-corner cut-corner__right">
         {renderTeams(active, 2)}
       </div>
