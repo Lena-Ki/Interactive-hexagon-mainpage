@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { AppStore } from '../stores/AppStore'
 import { ReusableHex } from './ReusableHex'
-import './maincontent.css'
+import './maincontent.scss'
 import './hexcontent.scss';
 import './clipped.css'
 
@@ -9,6 +9,7 @@ export const MainContent = () => {
 
   let [active, setActive] = useState(3)
 
+  // render elements 
   const renderHex = (active, device) => {
     let Hexs = []
     for (let i = 0; i < 5; i++) {
@@ -25,6 +26,7 @@ export const MainContent = () => {
     return Hexs
   }
 
+  // render team information
   const renderTeams = (active, id) => {
     let team = id === 1 ? 'team1' : 'team2'
     let name = AppStore.items[active - 1][team]
@@ -32,6 +34,7 @@ export const MainContent = () => {
     return (<span className={clName}>{name}</span>)
   }
 
+  // onWheel event 
   const handleWheel = (e) => {
     e.stopPropagation()
     switch (active) {

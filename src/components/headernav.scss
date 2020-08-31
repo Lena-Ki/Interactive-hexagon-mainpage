@@ -1,0 +1,33 @@
+.nav__container {
+  width: 97vw;
+  padding-top: 5px;
+}
+
+.nav__item {
+  text-decoration: none;
+  display: inline;
+
+  a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #f3f3f3;
+    position: relative;
+
+    &.hover_left::before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 1.5px;
+      bottom: 0;
+      left: 0;
+      background-color: #f3f3f3;
+      visibility: hidden;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &.hover_left:hover::before {
+      visibility: visible;
+      width: 100%;
+    }
+  }
+}
