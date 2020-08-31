@@ -6,14 +6,30 @@
   justify-content: flex-end;
   align-items: center;
   position: absolute;
-  top: 29%;
-  left: -55px;
   background: url(../clipped-rect.svg) no-repeat center;
   background-size: 87% 100%;
 }
 
+.cut-corner__left {
+  top: 29%;
+  left: -55px;
+}
+
+.cut-corner__right {
+  transform: scale(-1, -1);
+  top: 51%;
+  right: -55px
+}
+
 .team1 {
-  position: relative;
   right: 20%;
+  position: relative;
+  transition: all 1s;
+}
+
+.team2 {
+  right: 20%;
+  transform: scale(-1, -1);
+  position: relative;
   transition: all 1s;
 }

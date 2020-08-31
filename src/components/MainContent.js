@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { AppStore } from '../stores/AppStore'
-import { ClippedRectangle } from './ClippedRectangle'
 import { ReusableHex } from './HexItems/ReusableHex'
 import './maincontent.css'
 import './hexcontent.css';
+import './clipped.css'
 
 export const MainContent = () => {
 
@@ -25,18 +25,23 @@ export const MainContent = () => {
     return Hexs
   }
 
-  const renderTeams = (active) => {
-    let team1 = AppStore.items[active - 1].team1
-    return (<span className="mainhex__date team1">{team1}</span>)
+  const renderTeams = (active, id) => {
+    let team = id == 1 ? 'team1' : 'team2'
+    let name = AppStore.items[active - 1][team]
+    let clName = "mainhex__date team" + id
+    return (<span className={clName}>{name}</span>)
   }
 
   return (
     <>
-      <div className="cut-corner">
-        {renderTeams(active)}
+      <div className="cut-corner cut-corner__left">
+        {renderTeams(active, 1)}
       </div>
       <div className="hex-container">
         {renderHex(active, 'desktop')}
+      </div>
+      <div className="cut-corner cut-corner__right">
+        {renderTeams(active, 2)}
       </div>
     </>
   )
