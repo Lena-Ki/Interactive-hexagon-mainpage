@@ -7,7 +7,7 @@ import './clipped.css'
 
 export const MainContent = () => {
 
-  const [active, setActive] = useState(3)
+  let [active, setActive] = useState(3)
 
   const renderHex = (active, device) => {
     let Hexs = []
@@ -32,8 +32,22 @@ export const MainContent = () => {
     return (<span className={clName}>{name}</span>)
   }
 
+  const handleWheel = (e) => {
+    e.stopPropagation()
+    switch (active) {
+      case 1:
+        e.deltaY < 0 ? setActive(active) : setActive(active++)
+        break;
+      case 5:
+        e.deltaY < 0 ? setActive(active--) : setActive(active)
+        break;      
+      default:
+        e.deltaY < 0 ? setActive(active--) : setActive(active++)
+    }
+  }
+
   return (
-    <>
+    <div onWheel={handleWheel}>
       <div className="cut-corner cut-corner__left">
         {renderTeams(active, 1)}
       </div>
@@ -43,6 +57,6 @@ export const MainContent = () => {
       <div className="cut-corner cut-corner__right">
         {renderTeams(active, 2)}
       </div>
-    </>
+    </div>
   )
 }
