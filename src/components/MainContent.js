@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { AppStore } from '../stores/AppStore'
-import { ReusableHex } from './HexItems/ReusableHex'
+import { ReusableHex } from './ReusableHex'
 import './maincontent.css'
-import './hexcontent.css';
+import './hexcontent.scss';
 import './clipped.css'
 
 export const MainContent = () => {
@@ -26,9 +26,9 @@ export const MainContent = () => {
   }
 
   const renderTeams = (active, id) => {
-    let team = id == 1 ? 'team1' : 'team2'
+    let team = id === 1 ? 'team1' : 'team2'
     let name = AppStore.items[active - 1][team]
-    let clName = "mainhex__date team" + id
+    let clName = "strong team" + id
     return (<span className={clName}>{name}</span>)
   }
 

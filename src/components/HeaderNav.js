@@ -9,8 +9,8 @@ export const HeaderNav = () => {
         <li className="nav__item"><a href="/">Как купить?</a></li>
         <li className="nav__item"><a href="/">Правила</a></li>
         <li className="nav__item"><a href="/">Возврат билетов</a></li>
-        <li className="nav__item"><a href="/">Войти</a></li>
-        <li className="nav__item"><a href="/">Иконка</a></li>
+        <li className="nav__item"><a href="/">[ ] Войти</a></li>
+        <li className="nav__item"><a href="/">=</a></li>
       </ul>
     </div>
   )

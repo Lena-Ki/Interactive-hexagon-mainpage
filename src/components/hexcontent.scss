@@ -1,3 +1,18 @@
+.strong {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.medium {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.secondary__content {
+  width: 75%;
+  text-align: center;
+}
+
 .mainhex__content {
   position: absolute;
   display: flex;
@@ -14,11 +29,6 @@
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
-
-.mainhex__date {
-  font-size: 2em;
-  font-weight: 600;
 }
 
 .mainhex__time {
