@@ -6,7 +6,7 @@
   justify-content: flex-end;
   align-items: center;
   position: absolute;
-  top: 30%;
+  top: 29%;
   left: -55px;
   background: url(../clipped-rect.svg) no-repeat center;
   background-size: 87% 100%;
@@ -15,4 +15,5 @@
 .team1 {
   position: relative;
   right: 20%;
+  transition: all 1s;
 }

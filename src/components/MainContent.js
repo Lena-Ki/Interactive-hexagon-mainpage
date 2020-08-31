@@ -27,7 +27,6 @@ export const MainContent = () => {
 
   const renderTeams = (active) => {
     let team1 = AppStore.items[active - 1].team1
-    console.log(team1)
     return (<span className="mainhex__date team1">{team1}</span>)
   }
 
