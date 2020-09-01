@@ -1,7 +1,11 @@
 # Hexagon desktop webpage
 Interactive page using React with CSS animations.
 
-### Installing
+## Demo
+
+Watch [demo](https://lena-ki.github.io/Interactive-hexagon-mainpage/)
+
+## Installing
 
 Clone repository to your machine, open the directory and install modules using
 
