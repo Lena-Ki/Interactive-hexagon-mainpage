@@ -1,5 +1,5 @@
 # Hexagon desktop webpage
-Interactive page using React with CSS animations.
+Interactive page using React with CSS animations and liquid design.
 
 ## Demo
 
