@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e27982b1.chunk.css",
-    "main.js": "/static/js/main.3592eca3.chunk.js",
-    "main.js.map": "/static/js/main.3592eca3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6472e494.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6472e494.js.map",
-    "static/js/2.d9d5d184.chunk.js": "/static/js/2.d9d5d184.chunk.js",
-    "static/js/2.d9d5d184.chunk.js.map": "/static/js/2.d9d5d184.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.68251d9ddcc3c7522a77a477a8621ab9.js": "/precache-manifest.68251d9ddcc3c7522a77a477a8621ab9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e27982b1.chunk.css.map": "/static/css/main.e27982b1.chunk.css.map",
-    "static/js/2.d9d5d184.chunk.js.LICENSE.txt": "/static/js/2.d9d5d184.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/bg-circle.55e18b2a.svg",
-    "static/media/teaminfo.scss": "/static/media/clipped-rect.1d4af823.svg",
-    "static/media/maincontent.scss": "/static/media/hex.538ce110.svg"
+    "main.css": "/Interactive-hexagon-mainpage/static/css/main.cbe668fd.chunk.css",
+    "main.js": "/Interactive-hexagon-mainpage/static/js/main.68ef1f3a.chunk.js",
+    "main.js.map": "/Interactive-hexagon-mainpage/static/js/main.68ef1f3a.chunk.js.map",
+    "runtime-main.js": "/Interactive-hexagon-mainpage/static/js/runtime-main.be696f6b.js",
+    "runtime-main.js.map": "/Interactive-hexagon-mainpage/static/js/runtime-main.be696f6b.js.map",
+    "static/js/2.7d3f9cff.chunk.js": "/Interactive-hexagon-mainpage/static/js/2.7d3f9cff.chunk.js",
+    "static/js/2.7d3f9cff.chunk.js.map": "/Interactive-hexagon-mainpage/static/js/2.7d3f9cff.chunk.js.map",
+    "index.html": "/Interactive-hexagon-mainpage/index.html",
+    "precache-manifest.64d979646ab4aa156492a8306f3d40b2.js": "/Interactive-hexagon-mainpage/precache-manifest.64d979646ab4aa156492a8306f3d40b2.js",
+    "service-worker.js": "/Interactive-hexagon-mainpage/service-worker.js",
+    "static/css/main.cbe668fd.chunk.css.map": "/Interactive-hexagon-mainpage/static/css/main.cbe668fd.chunk.css.map",
+    "static/js/2.7d3f9cff.chunk.js.LICENSE.txt": "/Interactive-hexagon-mainpage/static/js/2.7d3f9cff.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/Interactive-hexagon-mainpage/static/media/bg-circle.55e18b2a.svg",
+    "static/media/teaminfo.scss": "/Interactive-hexagon-mainpage/static/media/clipped-rect.1d4af823.svg",
+    "static/media/maincontent.scss": "/Interactive-hexagon-mainpage/static/media/hex.538ce110.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6472e494.js",
-    "static/js/2.d9d5d184.chunk.js",
-    "static/css/main.e27982b1.chunk.css",
-    "static/js/main.3592eca3.chunk.js"
+    "static/js/runtime-main.be696f6b.js",
+    "static/js/2.7d3f9cff.chunk.js",
+    "static/css/main.cbe668fd.chunk.css",
+    "static/js/main.68ef1f3a.chunk.js"
   ]
 }
