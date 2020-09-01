@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a290a834eda60df3f437d13d7e34624e",
+    "revision": "3f5bd37c2d7af57fd9e4d44bf55f9c60",
     "url": "/Interactive-hexagon-mainpage/index.html"
   },
   {
-    "revision": "21b32e637b7ca6b56dbd",
-    "url": "/Interactive-hexagon-mainpage/static/css/main.cbe668fd.chunk.css"
+    "revision": "dc19a1d344694847688b",
+    "url": "/Interactive-hexagon-mainpage/static/css/main.77a74e4e.chunk.css"
   },
   {
     "revision": "59ec55763ffb856d69f3",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Interactive-hexagon-mainpage/static/js/2.7d3f9cff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21b32e637b7ca6b56dbd",
+    "revision": "dc19a1d344694847688b",
     "url": "/Interactive-hexagon-mainpage/static/js/main.68ef1f3a.chunk.js"
   },
   {
